@@ -80,7 +80,7 @@ while running:
         CD_rect.x = random.randint(0, WINDOW_WIDTH - image_width)  
         CD_rect.y = random.randint(0, WINDOW_HEIGHT - image_width)
 
-    system_text = system_font.render("Chyť si svoje cédo! Teď jich máš " + str(CD_counter), 1, dark_green, True)
+    system_text = system_font.render("Chyť si svoje cédo! Teď máš " + str(CD_counter), 1, dark_green, True)
     system_text_rect = system_text.get_rect()
     system_text_rect.center = (WINDOW_WIDTH//2, 20)
 
